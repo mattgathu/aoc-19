@@ -381,7 +381,7 @@ fn test_amp_controller() {
         ),
     ];
     for (prog, seq, res) in progs {
-        assert_eq!(res, run_amp_controller(prog, seq));
+        assert_eq!(res, AmpController::new(prog, seq).run(0));
     }
 }
 
