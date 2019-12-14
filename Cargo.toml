@@ -7,6 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+console = "0.9.1"
 
 
 
@@ -37,4 +38,9 @@ path = "src/6.rs"
 [[bin]]
 name = "7"
 path = "src/7.rs"
+
+[[bin]]
+name = "8"
+path = "src/8.rs"
+
 
